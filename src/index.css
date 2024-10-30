@@ -1,0 +1,107 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+a { 
+  text-decoration: none;
+  color: inherit;
+}
+/* Custom CSS */
+:root {
+  --bg-primary: #DDA94B;
+  --bg-secondary: #1E4174;
+
+}
+body {
+  background-color: var(--bg-primary);
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.navLinks a{
+  color: #fff;
+  
+}
+
+#wrapper {
+  height: 100vh;
+  height: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  background-color: var(--bg-secondary);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+li :hover {
+  background-color: #fff;
+  color: var(--bg-secondary);
+  border-radius: 5px;
+}
+.footer1 {
+  background-color: var(--bg-secondary);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+
