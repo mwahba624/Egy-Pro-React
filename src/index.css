@@ -104,4 +104,41 @@ li :hover {
 
 }
 
+/* Portfolio.css */
 
+section {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* view Project property */ 
+
+.project-link {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: #fff; /* Change text color */
+  background-color: #f4f7fc /* Change background color */
+}
