@@ -7,7 +7,7 @@ export default function Home() {
       <div style={styles.content}>
         <h1 style={styles.title}>Welcome to My Profile</h1>
         <p style={styles.description}>
-          Hello! I’m Michael Wahba, a passionate developer skilled in creating dynamic web experiences.
+          Hello! I’m Michael Wahba, a passionate developer learning in creating dynamic web experiences.
           <span style={styles.highlightText}> Explore some of my work below.</span>
         </p>
         
@@ -29,6 +29,7 @@ const styles = {
     height: '100vh',
     backgroundColor: '#f5f5f5',
   },
+
   content: {
     textAlign: 'center',
     maxWidth: '600px',

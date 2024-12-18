@@ -142,3 +142,8 @@ section div {
   color: #fff; /* Change text color */
   background-color: #f4f7fc /* Change background color */
 }
+
+.resume-item {
+  width: 800px;
+  height: 600px;
+}
