@@ -52,10 +52,10 @@ N/A
 -[Video link](N/A)
 
 ## Deployed Link
-- [Deployed Link](https://mwahba624.github.io/EGY-Candiate/)
+- [Deployed Link](https://guileless-naiad-294346.netlify.app/)
 
 ## Questions
-- [Github Profile](https://github.com/mwahba624/EGY-Candiate)
+- [Github Profile](https://github.com/mwahba624/Egy-Pro-React)
 
 ## Credits
 - N/A
