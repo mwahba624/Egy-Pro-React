@@ -37,16 +37,13 @@ const Form = () => {
         value={formData.username}
         onChange={handleChange}
       />
-       <h2 className={styles.title}>Feedback is always appreciated</h2>
-      <form onSubmit={handleSubmit} className={styles.form}>
-        <FormInput
-          label="Email"
-          name="email"
-          type="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </form>
+      <FormInput
+        label="Email"
+        name="email"
+        type="email"
+        value={formData.email}
+        onChange={handleChange}
+      />
        <div className={styles.inputGroup}>
           <label htmlFor="message" className={styles.label}>
             Message
