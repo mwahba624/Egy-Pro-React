@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { DiReact, DiHtml5, DiCss3, DiJavascript1, DiNodejs, DiPostgresql, DiGit } from 'react-icons/di'; // Technology icons
-
+import profilePic from '../assets/Wahba.png'; // Profile picture
 export default function About() {
   return (
     <div style={styles.container}>
       <div style={styles.bioContainer}>
         {/* Profile Image */}
         <img
-          src="./src/pics/wahba.png" // Update the image path as needed
+          src={profilePic} //
           alt="Profile"
           style={styles.profileImage}
         />
